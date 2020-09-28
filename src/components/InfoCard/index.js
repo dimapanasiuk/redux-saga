@@ -2,7 +2,7 @@ import React from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 
-import { requestApiData } from "../../redux/saga/actions";
+import { requestApiData } from "../../redux/infoCard/sagaActions/actions";
 
 class Home extends React.Component {
   componentDidMount() {

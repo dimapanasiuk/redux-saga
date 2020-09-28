@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import createSagaMiddleware from "redux-saga";
 
 import Counter from "./components/Counter";
-import Home from "./components/Home";
+import InfoCard from "./components/InfoCard";
 import { rootReducer } from "./redux";
 import mySaga from "./sagas";
 
@@ -19,7 +19,7 @@ const App = () => {
       <Provider store={store}>
         <h1>App</h1>
         <Counter />
-        <Home />
+        <InfoCard />
       </Provider>
     </>
   );
